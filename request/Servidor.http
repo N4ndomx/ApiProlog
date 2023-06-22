@@ -1,0 +1,24 @@
+@api = http://localhost:2000/Servidor
+
+get {{api}}/character/deadpool
+
+###
+get {{api}}/buscar
+
+###
+post {{api}}/caracteristicasbypersonaje
+Content-Type: application/json
+
+{
+    "personajes": "hombre, humano, millonario",
+    "filtrar": "hombre, humano, verde, mutante, mujer"
+}
+
+###
+POST {{api}}/prolog
+Content-Type: application/json
+
+{
+    "buscar": "mutante, mercenario",
+    "arrayNo": "humano, verde, mutante, mujer, dark_fenix, villano, poderoso"
+}
