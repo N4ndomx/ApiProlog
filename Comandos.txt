@@ -1,1 +1,1 @@
-$ node --experimental-modules index.js
+$ node index.js

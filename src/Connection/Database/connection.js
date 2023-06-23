@@ -5,7 +5,7 @@ export const dbSettings = {
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "IrvingConde123",
+  password: "root",
   database: "guessthis",
 };
 
